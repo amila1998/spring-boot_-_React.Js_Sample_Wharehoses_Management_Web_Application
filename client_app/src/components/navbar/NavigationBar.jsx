@@ -37,12 +37,22 @@ const NavigationBar = () => {
                 ],
               },
               {
-                title: 'Another Item',
-                itemId: '/another',
+                title: 'Store Management',
+                itemId: '/storemanagement',
                 subNav: [
                   {
-                    title: 'Teams',
-                    itemId: '/management/teams',
+                    title: 'Add a Store',
+                    itemId: '/storemanagement/addStore',
+                  },
+                ],
+              },
+              {
+                title: 'Stock Management',
+                itemId: '/stockmanagement',
+                subNav: [
+                  {
+                    title: 'Add a Stock',
+                    itemId: '/stockmanagement/addStock',
                   },
                 ],
               },
