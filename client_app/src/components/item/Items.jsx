@@ -57,7 +57,7 @@ const Items = () => {
                             <tr key={item.id}>
                                 <td>{item.id}</td>
                                 <td>{item.itemName}</td>
-                                <td><Link to={`/editeItem/${item.id}`}>Edit</Link></td>
+                                <td><Link to={`/itemManagement/editItem/${item.id}`}>Edit</Link></td>
                                 <td><button onClick={() => deleteItem(item.id)}>Delete</button></td>
                             </tr>
                         ))

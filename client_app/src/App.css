@@ -73,4 +73,17 @@ table a{
   width: 70px;
   height: 100px;
   object-fit: cover;
+  display: inline;
+}
+
+.formBody{
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+
+}
+.formBody, input, button{
+  padding: 10px;
 }
